@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  backend:
+    build: ./DockerfileBE
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  frontend:
+    build: ./DockerfileFE
+    ports:
+      - "8080:8080"
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: sales_db
+    ports:
+      - "5432:5432"
