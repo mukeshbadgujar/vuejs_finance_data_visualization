@@ -63,6 +63,9 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'django.contrib.sites',  # Required for DRF Token-based auth
     'corsheaders',        # Required for CORS
+    'import_export',
+    
+    # Custom apps
     'authentication',
     'sales_management',
 ]

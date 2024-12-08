@@ -1,0 +1,9 @@
+.idea/
+.venv
+migrations
+.csv
+/migrations/
+*/__pycache__/*
+.pyc
+export_2019.csv
+db.sqlite3
