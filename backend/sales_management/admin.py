@@ -3,7 +3,7 @@ from .models import Invoice
 
 class InvoiceAdmin(admin.ModelAdmin):
     # Fields to show in the list view (list display)
-    list_display = ('invoice_number', 'store_name', 'date', 'sale_dollars', 'bottles_sold')
+    list_display = ('id', 'invoice_number', 'store_name', 'date', 'sale_dollars', 'bottles_sold')
 
     # Fields to show in the form view (adding or editing)
     # fields = ('invoice_number', 'date', 'store_name', 'address', 'city', 'sale_dollars')
