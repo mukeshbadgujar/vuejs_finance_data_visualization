@@ -8,7 +8,7 @@ import pandas as pd
 from sales_management.models import Invoice
 
 # Path to your CSV file
-CSV_FILE_PATH = "E:/MyWork/LanmarkGroupTask/export_2019.csv"
+CSV_FILE_PATH = "./export_2019.csv"
 
 
 def preprocess_data(file_path):
