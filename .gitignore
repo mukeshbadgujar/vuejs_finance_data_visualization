@@ -7,3 +7,4 @@ migrations
 .pyc
 export_2019.csv
 db.sqlite3
+*.pyc

@@ -64,7 +64,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',  # Required for DRF Token-based auth
     'corsheaders',        # Required for CORS
     'import_export',
-    
+    'django_filters',
+
     # Custom apps
     'authentication',
     'sales_management',
