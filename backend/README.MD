@@ -16,3 +16,14 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
+
+## To load CSV in database
+1. Run the following command to load the CSV file in the database:
+2. add your csv file in the backend(root) folder
+3. make sure csv column name should be same as in the file
+```bash
+python backend/optimized_import_invoices.py
+```
+
+
+
